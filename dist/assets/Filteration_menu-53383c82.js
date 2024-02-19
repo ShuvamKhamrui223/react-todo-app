@@ -1,0 +1,1 @@
+import{r as t,T as l,j as e}from"./index-4699b2c3.js";const u=()=>{const[s,a]=t.useState(!1),{dispatch:n}=t.useContext(l),o=r=>{n({type:"SORT_TODOS",payload:r.currentTarget.value}),a(c=>!c)};return e.jsx("div",{className:"container",children:e.jsx("button",{className:"filterBtn",onClick:o,children:s?"🔻":"🔺"})})};export{u as default};
